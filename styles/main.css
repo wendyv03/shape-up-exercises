@@ -43,7 +43,8 @@ aside {
 aside a{ color: steelblue; } 
 aside a:hover, a:focus{ color: maroon; }
 aside h2{ color: maroon; }
-aside ul{ line-height: 1.5; } 
+aside ul{ line-height: 1.5;
+		margin: 20px; } 
 footer{
     text-align: center;
     font-size: 8pt;
@@ -52,3 +53,4 @@ footer{
 	padding: 15px;
 	margin-top: 20px;
 	}  
+
