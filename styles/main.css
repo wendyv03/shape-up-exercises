@@ -6,7 +6,7 @@
 body{
 	font-family: Arial, Helvetica, sans-serif;
 	max-width: 700px;
-	width: 90%
+	width: 90%;
 	margin: 20px auto;
 	border: 3px solid steelblue;
 	box-shadow: 5px 5px 10px black;
@@ -57,5 +57,6 @@ footer{
 	padding: 15px;
 	margin-top: 20px;
 	}  
+
 
 
