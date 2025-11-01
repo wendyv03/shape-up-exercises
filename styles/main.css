@@ -9,8 +9,8 @@ body{
 	width: 90%;
 	margin: 0 auto 40px auto;
 	border: 3px solid steelblue;
-	box-shadow: 0 5px 5px 10px black;
-	/* 0 shadow on left and right/centered, 5px length, 10px is blur, 10px is spread*/
+	box-shadow:0 15px 18px 10px black;
+	/* 0 shadow on left and right/centered, 15px length, 18px is blur, 10px is spread*/
   }
 header {
 	background: linear-gradient(to bottom, white, lightsteelblue);
@@ -63,6 +63,7 @@ footer{
 	padding: 15px;
 	margin-top: 20px;
 	}  
+
 
 
 
