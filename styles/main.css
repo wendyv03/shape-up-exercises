@@ -7,44 +7,48 @@ body{
 	font-family: Arial, Helvetica, sans-serif;
 	width: 700px;
 	margin: 20px auto;
-	border: 2px solid steelblue;
-	box-shadow: 5px 5px 15px black;
+	border: 3px solid steelblue;
+	box-shadow: 5px 5px 10px black;
   }
-
+header {
+	background: linear-gradient(to bottom, white, lightsteelblue);
+	border-bottom: 3px solid steelblue;
+	padding: 20px;
+	text-align: center;
+}
 header img {
     float: left;
 	margin-right: 20px; 
 	margin-bottom: auto;
   }
-
 header h1{
     font-size: 26pt;
     color: steelblue;
   }
-
 header h2{ 
     font-size: 22pt;
   }
 main section h3 a{
     color: maroon;
   }
-
 a{ font-weight: bold; }
-
 section a{ color: maroon; }
-
 section a:hover, a:focus{ color: steelblue; }
-
+aside {
+	border: 2px solid steelblue;
+	border-radius: 10px; 
+	padding: 15px;
+	margin: 20px;
+}
 aside a{ color: steelblue; } 
-  
 aside a:hover, a:focus{ color: maroon; }
-  
 aside h2{ color: maroon; }
-  
 aside ul{ line-height: 1.5; } 
-  
 footer{
     text-align: center;
     font-size: 8pt;
+	background-color: steelblue;
+	color: white;
+	padding: 15px;
+	margin-top: 20px;
 	}  
-
