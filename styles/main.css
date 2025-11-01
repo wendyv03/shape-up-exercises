@@ -39,7 +39,7 @@ section a{ color: maroon; }
 section a:hover, a:focus{ color: steelblue; }
 aside {
 	border: 2px solid steelblue;
-	border-radius: 10px; 
+	border-radius: 20px; 
 	padding: 15px;
 	margin: 20px;
 }
@@ -56,6 +56,7 @@ footer{
 	padding: 15px;
 	margin-top: 20px;
 	}  
+
 
 
 
