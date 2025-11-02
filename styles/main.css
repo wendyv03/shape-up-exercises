@@ -35,9 +35,7 @@ margin: 20px 20px 20px 20px;
 main section h2, main section h3, main section p {
  margin-bottom: 10px;
 }
-main section p {
-padding-left: 20px;
-}
+main section blockquote p{padding-left: 30px}
 main section h2, main section h3{
 margin-top: 10px;
 }
@@ -55,9 +53,11 @@ aside {
 }
 aside a{ color: steelblue; } 
 aside a:hover, a:focus{ color: maroon; }
-aside h2{ color: maroon; }
+aside h2{ color: maroon;
+		  padding-left: 7px;}
 aside ul{ line-height: 1.5;
-		margin: 20px; } 
+padding: 10px 20px 15px 20px;
+		 } 
 footer{
     text-align: center;
     font-size: 8pt;
@@ -65,6 +65,3 @@ footer{
 	color: white;
 	padding: 30px 0 20px 0 ;
 }
-
-
-
