@@ -15,7 +15,7 @@ body{
 header {
 	background: linear-gradient(to bottom, white, lightsteelblue);
 	border-bottom: 3px solid steelblue;
-	padding: 20px;
+	padding-bottom: 20px;
 }
 header img {
     float: left;
@@ -45,9 +45,9 @@ a{ font-weight: bold; }
 section a{ color: maroon; }
 section a:hover, a:focus{ color: steelblue; }
 aside {
-	border: 2px solid steelblue;
+	border: 3px solid steelblue;
 	border-radius: 20px; 
-	padding: 15px;
+	padding: 20px 0 0 20px;
 	margin: 20px;
 }
 aside a{ color: steelblue; } 
@@ -61,5 +61,6 @@ footer{
 	background-color: steelblue;
 	color: white;
 	padding: 15px;
-	margin-top: 20px;
+	padding-top: 25px;
 	}  
+
