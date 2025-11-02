@@ -35,6 +35,9 @@ margin: 20px 20px 20px 20px;
 main section h2, main section h3, main section p {
  margin-bottom: 10px;
 }
+main section p {
+padding-left: 20px;
+}
 main section h2, main section h3{
 margin-top: 10px;
 }
@@ -62,5 +65,6 @@ footer{
 	color: white;
 	padding: 30px 0 20px 0 ;
 }
+
 
 
