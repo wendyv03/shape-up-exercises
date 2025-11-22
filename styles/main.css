@@ -5,7 +5,7 @@
 body{
 	font-family: Arial, Helvetica, sans-serif;
 	width: 100%;
-	margin: 0 auto 40px auto;
+	margin: 0 auto 0 auto;
 	/* 0 shadow on left and right/centered, 15px length, 18px is blur, 10px is spread*/
   }
 header {
@@ -66,6 +66,7 @@ footer{
 	color: white;
 	padding: 30px 0 20px 0 ;
 }
+
 
 
 
