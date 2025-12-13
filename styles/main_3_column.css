@@ -30,12 +30,16 @@ header h1{
 header h2{ 
     font-size: 2.2vw;
   }
+#sidebarA{
+	order: 1; 
+	flex: 1; }
 main{
 	display: flex;
 	flex-direction: row;
 	padding: 2vw;
 	gap: 2vw; }
 main section{
+	order: 2;
 	flex: 3;
 	padding: 1vw; }
 main section h2, main section h3, main section p {
@@ -50,7 +54,8 @@ a{ font-weight: bold;
   font-size: 1.2vw; }
 section a{ color: maroon; }
 section a:hover, a:focus{ color: steelblue; }
-aside {
+#sidebarB {
+	order: 3;
 	flex: 1;
 	border: 3px solid steelblue;
 	border-radius: 20px; 
