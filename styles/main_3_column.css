@@ -44,7 +44,8 @@ main{
 main section{
 	order: 2;
 	flex: 3;
-	padding: 1vw; }
+	padding: 1vw;
+	align-items: flex-start; }
 main section h2, main section h3, main section p {
 	margin-bottom: 10px; }
 main section blockquote p{padding-left: 30px}
