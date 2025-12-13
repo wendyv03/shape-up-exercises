@@ -31,23 +31,23 @@ header h2{
     font-size: 2.2vw;
   }
 main{
-display: flex;
-flex-direction: row;
-padding: 2vw;
-gap: 2vw;
-}
+	display: flex;
+	flex-direction: row;
+	padding: 2vw;
+	gap: 2vw; }
+main section{
+	flex: 3;
+	padding: 1vw; }
 main section h2, main section h3, main section p {
- margin-bottom: 10px;
-}
+	margin-bottom: 10px; }
 main section blockquote p{padding-left: 30px}
 main section h2, main section h3{
-margin-top: 10px;
-}
+	margin-top: 10px; }
 main section h3 a{
     color: maroon;
   }
 a{ font-weight: bold; 
- 	font-size: 1.2vw; }
+  font-size: 1.2vw; }
 section a{ color: maroon; }
 section a:hover, a:focus{ color: steelblue; }
 aside {
@@ -70,3 +70,4 @@ footer{
 	color: white;
 	padding: 2vw 0 ;
 }
+
