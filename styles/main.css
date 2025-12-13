@@ -51,7 +51,6 @@ a{ font-weight: bold;
 section a{ color: maroon; }
 section a:hover, a:focus{ color: steelblue; }
 aside {
-	flex: 1;
 	border: 3px solid steelblue;
 	border-radius: 20px; 
 	padding: 2vw;
@@ -70,4 +69,5 @@ footer{
 	color: white;
 	padding: 2vw 0 ;
 }
+
 
