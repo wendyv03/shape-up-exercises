@@ -31,7 +31,7 @@ header h2{
     font-size: 2.2vw;
   }
 #sidebarA{
-	order: 1; 
+	order: 3; 
 	flex: 1; 
 	border: 3px solid steelblue;
 	border-radius: 20px; 
@@ -58,7 +58,7 @@ a{ font-weight: bold;
 section a{ color: maroon; }
 section a:hover, a:focus{ color: steelblue; }
 #sidebarB {
-	order: 3;
+	order: 1;
 	flex: 1;
 	border: 3px solid steelblue;
 	border-radius: 20px; 
