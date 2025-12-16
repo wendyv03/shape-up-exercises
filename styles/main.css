@@ -32,32 +32,32 @@ header h2{
 #nav_menu{
 	background-color: steelblue;
 }
-#menu {
+.menu {
 	display: flex;
 	flex-wrap: wrap;
 	list-style: none;
 	margin: 0;
 	padding: 0;
 }
-#menu > li{
+.menu > li{
 	position: relative;	
 }
-#menu a{
+.menu a{
 	display: block;
 	padding: 1vw 1.5vw;
 	color: white;
 	text-decoration: none;
 	font-weight: bold;
 }
-#menu a:hover, #menu a:focus {
+.menu a:hover, .menu a:focus {
 	background-color: steelblue;
 }
-#menu a.current {
+.menu a.current {
 	border: 2px solid white;
 	border-radius: 12px;
 }
 /*sub menu styling*/
-#submenu #submenuli {
+.submenu .submenuli {
 	display: none;
 	position:absolute;
 	top: 100%;
@@ -68,10 +68,10 @@ header h2{
 	min-width: 200px;
 }
 
-#submenu:hover #submenuli{
+.submenu:hover .submenuli{
 	display: block;
 }
-#submenu li a {
+.submenu li a {
 	padding: 0.8vw 1.2vw;
 }
 main{
@@ -115,5 +115,6 @@ footer{
 	color: white;
 	padding: 2vw 0 ;
 }
+
 
 
