@@ -7,7 +7,7 @@ body{
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 1.2vw;
 	width: 100%;
-	margin: 0 auto 0 auto;
+	margin: 0;
 	border: none;
 	/* 0 shadow on left and right/centered, 15px length, 18px is blur, 10px is spread*/
   }
@@ -115,3 +115,4 @@ footer{
 	color: white;
 	padding: 2vw 0 ;
 }
+
