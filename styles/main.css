@@ -9,6 +9,7 @@ body{
 	width: 100%;
 	margin: 0;
 	border: none;
+	width: 100%;
 	/* 0 shadow on left and right/centered, 15px length, 18px is blur, 10px is spread*/
   }
 header {
@@ -117,6 +118,7 @@ footer{
 	color: white;
 	padding: 2vw 0 ;
 }
+
 
 
 
