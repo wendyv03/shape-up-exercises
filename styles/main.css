@@ -54,7 +54,7 @@ header h2{
 }
 .menu a.current {
 	border: 2px solid white;
-	border-radius: 8px;
+	border-radius: 10px;
 }
 /*sub menu styling*/
 .submenu .submenuli {
@@ -115,8 +115,3 @@ footer{
 	color: white;
 	padding: 2vw 0 ;
 }
-
-
-
-
-
