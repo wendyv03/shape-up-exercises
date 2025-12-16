@@ -37,11 +37,8 @@ header h2{
 .menu {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-evengly;
+	justify-content: content;
 	list-style: none;
-	padding: 0;
-	margin: 0;
-	width: 100%;
 }
 .menu > li{
 	position: relative;	
@@ -119,8 +116,3 @@ footer{
 	color: white;
 	padding: 2vw 0 ;
 }
-
-
-
-
-
