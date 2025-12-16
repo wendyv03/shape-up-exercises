@@ -59,7 +59,7 @@ header h2{
 /*sub menu styling*/
 .submenu .submenuli {
 	display: none;
-	position:absolute;
+	position: absolute;
 	top: 100%;
 	left: 0;
 	list-style: none;
@@ -115,6 +115,7 @@ footer{
 	color: white;
 	padding: 2vw 0 ;
 }
+
 
 
 
