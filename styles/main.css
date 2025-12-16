@@ -31,6 +31,7 @@ header h2{
 /*nav menu styling*/
 #nav_menu{
 	background-color: steelblue;
+	width: 100%;
 }
 .menu {
 	display: flex;
@@ -115,4 +116,5 @@ footer{
 	color: white;
 	padding: 2vw 0 ;
 }
+
 
