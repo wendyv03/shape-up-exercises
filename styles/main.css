@@ -49,7 +49,26 @@ header h2{
 	text-decoration: none;
 	font-size: 1.2vw;
 }
+#menu a.current {
+	border: 2px solid white;
+	border-radius: 12px;
+}
+/*sub menu styling*/
+#submenu #submenuli {
+	display: none;
+	position:absolute;
+	top: 100%;
+	left: 0;
+	list-style: none;
+	background-color: steelblue;
+}
 
+#submenu:hover #submenuli{
+	display: block;
+}
+#submenu li a {
+	padding: 0.8vw 1.2vw;
+}
 main{
 	display: flex;
 	flex-direction: row;
@@ -91,8 +110,3 @@ footer{
 	color: white;
 	padding: 2vw 0 ;
 }
-
-
-
-
-
