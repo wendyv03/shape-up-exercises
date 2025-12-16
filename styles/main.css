@@ -33,13 +33,13 @@ header h2{
 	background-color: steelblue;
 }
 #menu {
-	list-style: none;
 	display: flex;
 	flex-wrap: wrap;
-	padding: 0;
+	list-style: none;
 	margin: 0;
+	padding: 0;
 }
-#nav_menu > li{
+#menu > li{
 	position: relative;	
 }
 #menu a{
@@ -47,23 +47,28 @@ header h2{
 	padding: 1vw 1.5vw;
 	color: white;
 	text-decoration: none;
-	font-size: 1.2vw;
+	font-weight: bold;
+}
+#menu a:hover, #menu a:focus {
+	background-color: steelblue;
 }
 #menu a.current {
 	border: 2px solid white;
 	border-radius: 12px;
 }
 /*sub menu styling*/
-#submenu .submenuli {
+#submenu #submenuli {
 	display: none;
 	position:absolute;
 	top: 100%;
 	left: 0;
 	list-style: none;
 	background-color: steelblue;
+	z-index: 1000;
+	min-width: 200px;
 }
 
-#submenu:hover .submenuli{
+#submenu:hover #submenuli{
 	display: block;
 }
 #submenu li a {
@@ -110,4 +115,5 @@ footer{
 	color: white;
 	padding: 2vw 0 ;
 }
+
 
