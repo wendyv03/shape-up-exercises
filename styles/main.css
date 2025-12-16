@@ -54,7 +54,7 @@ header h2{
 	border-radius: 12px;
 }
 /*sub menu styling*/
-#submenu #submenuli {
+#submenu .submenuli {
 	display: none;
 	position:absolute;
 	top: 100%;
@@ -63,7 +63,7 @@ header h2{
 	background-color: steelblue;
 }
 
-#submenu:hover #submenuli{
+#submenu:hover .submenuli{
 	display: block;
 }
 #submenu li a {
@@ -110,3 +110,4 @@ footer{
 	color: white;
 	padding: 2vw 0 ;
 }
+
