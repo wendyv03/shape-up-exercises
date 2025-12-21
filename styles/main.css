@@ -81,6 +81,13 @@ main section blockquote p {
 	padding-left: 1rem;
 	font-style: italic;
 }
+aside ul{ line-height: 1.5;
+		 } 
+main section h2, main section h3{
+	margin-top: 10px; }
+main section h3 a{
+    color: maroon;
+	}
 a{ font-weight: bold; 
   font-size: 1.2vw; }
 section a{ color: maroon; }
@@ -143,3 +150,4 @@ footer {
 		padding: 0.5rem 1rem;
 	}
 }
+
